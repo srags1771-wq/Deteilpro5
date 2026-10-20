@@ -21,7 +21,7 @@ jobs:
           java-version: '17'
 
       - name: Extract project
-        run: unzip -q DetailPro_Android_0.4.0_source.zip
+        run: unzip -q DetailPro_Android_0.6.1_source.zip
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
